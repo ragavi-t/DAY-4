@@ -1,0 +1,5 @@
+var obj1 ={ name:"person 1",age:5};
+var obj2 ={ age:5,name:"person 1"};
+_.isEqual(obj1, obj2)
+JSON.stringify(obj1) === JSON.stringify(obj2)
+console.log("json is equals: "+ isEqualsJson(obj1,obj2));
